@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration Form</title>
+<style type="text/css"></style></head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Personal Information</legend>
+			<p>
+			<label for="Fisrt Name">First Name:</label><br>
+			<input type="text" id="firstname" placeholder="Please fill me" name="firstname">
+			</p>
+			<p>
+				<label for="lastname">Last Name:</label><br>
+				<input type="text" id="lastname" name="lastname">
+			</p>
+			<p>
+				<label for="CNIC">CNIC Number:</label><br>
+				<input type="Number" id="cnic" name="cnic">
+			</p>
+			<p>
+				<label for="fname">Father Name:</label><br>
+				<input type="text" id="fname" name="fname">
+			</p>
+			<p>
+				<label for="surname">Surname:</label><br>
+				<input type="text" id="surname" name="surname">
+			</p>
+			<p>
+				<label for="email">Email:</label><br>
+				<input type="email" id="email" name="email">
+			</p>
+			<p>
+				<label for="Dob">Date Of Birth:</label><br>
+				<input type="date" id="dob" name="dob">
+			</p>
+			<p>
+				<label for="Gender">Gender:</label><br>
+				<input type="radio" id="radio1" name="radio">
+				<label for="Male">Male</label><br>
+				<input type="radio" id="radio2" name="radio">
+				<label for="female">Female</label>
+			</p>
+			<p>
+				<label for="Religion">Select Your Religion:</label><br>
+				<select id="dropdown">
+					<option></option>
+					<option>Islam</option>
+					<option>Christianity</option>
+					<option>Hindu</option>
+					<option>Other</option>
+				</select>
+			</p>
+			<p>
+				<label for="Language"> Languages Experties:</label><br>
+				<input type="checkbox" id="checkbox1" name="checkbox">
+				<label for="urdu">Urdu</label><br>
+				<input type="checkbox" id="checkbox2" name="checkbox">
+				<label for="sindhi">Sindhi</label>
+			</p>
+		</fieldset>
+		<fieldset>
+			<legend>Academic Information</legend>
+			<p>
+			<label for="Education">Qualification:</label><br>
+			<select id="dropdown">
+				<option></option>
+				<option>Bachelor's</option>
+				<option>Intermidiate</option>
+				<option>Matriculation</option>
+			</select>
+			</p>
+			<p>
+			<label for="Province">Your Province:</label><br>
+			<select id="dropdown">
+				<option></option>
+				<option>Sindh</option>
+				<option>Punjab</option>
+				<option>Balochistan</option>
+				<option>KPP</option>
+			</select>
+			</p>
+			<p>
+				<label for="Cv">Your CV</label><br>
+				<input type="file" name="file">
+			</p>
+			<p>
+				<label for="Comments"></label>
+				<input type="text-area" name="text-area">
+			</p>
+		</fieldset>
+		<br>
+		<input type="submit" name="submit" value="sumbit">
+		<input type="reset" name="reset" value="reset">
+		<input type="button" name="ok" value="ok">
+	</form>
+
+
+</body>
+</html>
